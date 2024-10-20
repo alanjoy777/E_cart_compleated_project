@@ -1,0 +1,3 @@
+AsyncThunk is a concept used in Redux Toolkit to handle asynchronous actions, such as API requests, within a Redux application. It simplifies the process of dispatching async operations and handling the various states (loading, success, and error) associated with them.
+
+In Redux, a thunk is a middleware that allows you to write action creators that return a function instead of an action. This function can perform asynchronous operations (e.g., API calls) and then dispatch actions based on the results of those operations.
